@@ -21,6 +21,13 @@ After renaming your Architect.js file, include it before the closing body tag.
 </script>
 ```
 
+### Why wouldn't I just use object literals?
+This method allows you to do the following:
+* Private methods/vars
+* Public methods/vars
+* Extensibility/modularity
+* Clean, bundled, and concise
+
 ## Notes
 * This is one of many ways of structuring your JS code. No extensive documentation on this code will be provided because this code should be organic, it should change to fit your needs.
 * `_log()` is an internal wrapper for `console.log()`.
